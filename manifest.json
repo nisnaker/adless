@@ -1,0 +1,30 @@
+{
+	"name": "Adless",
+	"version": "1.0",
+	"manifest_version": 2,
+	"permissions": [
+		"*://*/*",
+		"webRequestBlocking",
+		"webRequest"
+	],
+
+	"background": {
+		"scripts": [
+			"bg.js"
+		]
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://www.baidu.com/s*"],
+			"css": ["baidu.css"],
+			"js": ["baidu.js"]
+		}
+	],
+
+	"icons": {
+		"128": "ico.png",
+		"16": "ico.png",
+		"48": "ico.png"
+	}
+}

@@ -1,0 +1,6 @@
+#content_left table[data-click^="{"] , .adless , #container .adless {
+	background-color: red  !important;
+	border: 1px solid red !important;
+	display: none;
+}
+
