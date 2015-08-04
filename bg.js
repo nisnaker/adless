@@ -24,6 +24,7 @@ function is_ad(url){
 		'impservice.union.youdao.com',
 
 		'pagead2.googlesyndication.com',
+		'www.googletagservices.com',
 
 		'p.tanx.com',
 		'cdn.tanx.com',
@@ -32,6 +33,7 @@ function is_ad(url){
 		'monitor.yigao.com',
 
 		'static.mediav.com',
+		'creatim.allyes.com.cn',
 	];
 
 	for(i in ad_list)
