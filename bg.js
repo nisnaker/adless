@@ -15,6 +15,7 @@ function is_ad(url){
 		'cpro.baidu.com',
 		'cpro.baidustatic.com',
 		'cbjs.baidu.com',
+		'su.bdimg.com',
 
 		'j.77power.com',
 
