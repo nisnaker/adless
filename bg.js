@@ -29,6 +29,8 @@ function is_ad(url){
 		'p.tanx.com',
 		'cdn.tanx.com',
 
+		'd5.sina.com.cn', // 新浪博客
+
 		'p.yigao.com',
 		'monitor.yigao.com',
 
