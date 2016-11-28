@@ -16,6 +16,7 @@ function is_ad(url){
 		'cpro.baidustatic.com',
 		'cbjs.baidu.com',
 		'su.bdimg.com',
+		'dup.baidustatic.com',
 
 		'j.77power.com',
 
@@ -36,6 +37,9 @@ function is_ad(url){
 
 		'static.mediav.com',
 		'creatim.allyes.com.cn',
+
+		'static.360buyimg.com/jzt/temp',
+		'adbox.sina.com.cn',
 	];
 
 	for(i in ad_list)

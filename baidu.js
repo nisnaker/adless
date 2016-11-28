@@ -6,16 +6,10 @@
 		var left = document.getElementById('content_left');
 		var as = left.getElementsByTagName('a');
 
-		var ad_links = [
-			'http://e.baidu.com/?id=1',
-			'http://e.baidu.com/?refer=666',
-			'http://e.baidu.com/'
-		];
-
 		var ads = [];
 		for(i in as) {
 			var a = as[i];
-			if(ad_links.indexOf(a.href) != -1) {
+			if('广告' == a.innerText) {
 				ads.push(a)
 			}
 		}
@@ -37,11 +31,11 @@
 		}
 
 		// right
-		var ad = document.getElementById('ec_im_container').parentNode;
-		ad.className += ' adless';
+		// var ad = document.getElementById('ec_im_container').parentNode;
+		// ad.className += ' adless';
 		// ad.parentNode.removeChild(ad);
 	}
 
-	// setTimeout(_func, 1000);
+	setInterval(_func, 500);
 	_func();
 })();
